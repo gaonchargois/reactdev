@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import osisLogo from './assets/osis.svg'
 import './App.css'
 import Tweet from './Tweet'
 
@@ -15,21 +14,15 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="http://localhost:5173/" target="_blank">
+          <img src={osisLogo} className="logo osis" alt="Osis logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>SCI OSIS</h1>
       <div className="card">
         <button onClick={() => setCountPos((count) => count + 1)}>
-          My Money is {countPos}€
+          Donne-moi des gâteaux : {countPos} gâteaux !
         </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
